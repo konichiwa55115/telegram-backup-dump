@@ -1,10 +1,10 @@
 import os
 
 class Config:
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL", None))
+    API_ID = "17983098"
+    API_HASH = "ee28199396e0925f1f44d945ac174f64"
+    BOT_TOKEN = "5579077143:AAFZxYKdXYzs00DMJRFAkzhHj7boKXm---8"
+    LOGS_CHANNEL = "-1001683878954"
 
 class Var:
     currentuser = int()
